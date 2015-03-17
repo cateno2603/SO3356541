@@ -26,4 +26,4 @@ Single `.Include` specification, by walking back up the tree before heading down
                         .Select(emp2 => emp2.Employee_Country)))
              .FirstOrDefault(co => co.companyID == companyID);
 
-=> Comparison of the resulting Sql for Option 1 here and Option 2 here 
+ - Comparison of the resulting Sql for [Option 1 here](https://github.com/nonnb/SO3356541/blob/master/TwoIncludes.sql) and [Option 2 here](https://github.com/nonnb/SO3356541/blob/master/OneInclude.sql)
